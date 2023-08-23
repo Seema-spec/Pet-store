@@ -1,23 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import styles from './ServiceProvide.module.scss';
 import Data from '../data/ServiceData.json'
-import dog from '../../assets/dog1.jpg'
-const moviesPerPage = 10;
 
 const ServiceProvide = () => {
-    const [movies, setMovies] = useState([]);
-    const [currentPage, setCurrentPage] = useState(1);
-
-
-
-    useEffect(() => {
-        console.log(Data);
-    }, []);
-
-
-    const handlePageChange = (newPage) => {
-        setCurrentPage(newPage);
-    };
 
     return (
         <div className={styles.container}>

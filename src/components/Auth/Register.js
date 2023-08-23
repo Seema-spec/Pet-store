@@ -9,8 +9,6 @@ export default function CafeMenu() {
   const navigate = useNavigate();
 
   const dispatch = useDispatch();
-  const loading = useSelector((state) => state.auth);
-  console.log(loading,"pppppp");
 
   const [userState, setUserState] = useState({ 
     email: "",
@@ -36,6 +34,7 @@ export default function CafeMenu() {
     };
     dispatch(registerUser(userData));
     localStorage.setItem('registeredUser', JSON.stringify(userData));
+    navigate('/dashboard');
   };
   const inputData = [
     {
