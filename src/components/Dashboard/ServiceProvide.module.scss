@@ -1,0 +1,63 @@
+.container{
+    width: 100%;
+    height: max-content;
+    background-image: url("../../assets/img7.jpg"); 
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    h3{
+        position: relative;
+        margin: 0px 0px 5px 0px;
+        color: blueviolet;
+        border-bottom: 2px solid rgb(238, 165, 29);
+    }
+} 
+.list_container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+.card_container{
+    position: relative;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    justify-content: space-evenly;
+    border-radius: 0px 10px 10px 0px;
+}
+.inner_container{
+    display: flex;
+    width: 80%;
+    height: 40vh;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0px 12px 0 rgba(0, 0, 0, 0.2), 0 0px 11px 0 rgba(0, 0, 0, 0.19)
+}
+.img_icon{
+    width: 30%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px ;
+}
+.button{
+    width: 15%;
+    height: 5vh;
+    border-radius: 5px ;
+    border: none;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(236, 129, 89);
+}

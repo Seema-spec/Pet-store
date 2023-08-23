@@ -1,0 +1,125 @@
+.app{
+    margin: 0;
+    padding: 50px 0px 0px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.app::before{
+    width: 100%;
+    content: ""; 
+    background-image: url("../../assets/images.jpg");    
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+.reg_body{
+    position: relative;
+    width: 27%;
+    border:1px solid #dfdbdb;
+    height: max-content;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+}
+.reg_body_bottom{
+    position: relative;
+    width: 27%;
+    border:1px solid #dfdbdb;
+    height: max-content;
+    background-color: white;
+}
+
+.header_title{
+    font-size: calc(1vw + 1rem);
+    margin-bottom: 10px;
+    color: black;
+}
+.innner_reg_body{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text1{
+    color: grey;
+    font-size: calc(0.8vw + 0.5rem);
+    margin: 15px 15px;
+    font-weight: bold;
+}
+.header_img_text{
+    background-color: rgb(0,149,246);
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+.img_box{
+    height: 3vh;
+    width: 10%;
+    background-color: white;
+}
+.text_signup{
+    background-color:  rgb(103 191 248);
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+}
+.form_control{
+    background-color: #f8f8f8;
+    margin-bottom: 13px;
+    border: 1px solid #dfdfdf;
+    padding: 7px;
+    border-radius: 3px;
+    width: 100%;
+}
+.form_body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom_text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: calc(0.9vw + 0rem);
+    color: #807c7c;
+    margin-bottom: 20px;
+}
+  .line{
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .border{
+    width: 116px;
+    height: 0px;
+    border: 1px solid #d1d0d0;
+    margin: 10px;
+  }
+  .footer_body{  
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+  }
+.spacer{
+    margin-bottom: 10px;
+    color: grey;
+    h3{
+        margin: 0px;
+    }
+}

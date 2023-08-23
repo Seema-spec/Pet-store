@@ -1,0 +1,77 @@
+.container::before{
+    width: 100%;
+    content: ""; 
+    background-image: url("../../assets/images.jpg");      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+}
+.header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+}
+.inner_container{
+    position: relative;
+    display: flex;
+    margin: 70px;
+    align-items: end;
+}
+.left_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.card{
+    width: 50%;
+    height: 70vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../../assets/dog2.jpg"); 
+}
+.card2{
+    width: 30%;
+    height: 30vh;
+    border-radius: 10px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../../assets/dog1.jpg");
+     
+}
+.text{
+    font-size: 40px;
+    line-height: 50px;
+    margin-left: 10px;
+}
+.button{
+    width: 25%;
+    height: 5vh;
+    border-radius: 5px ;
+    border: none;
+    margin-left: 144px;
+    background-color: rgb(236, 129, 89);
+}
+.button2{
+    width: 25%;
+    height: 5vh;
+    border: 1px solid  rgb(236, 129, 89);
+    border-radius: 5px;
+    margin: 10px;
+}
+.text2{
+  font-size: calc(0.5rem + 0.5vw);
+  line-height: 15px;
+}
+.text_block{
+    width: 100%;
+    margin-left: 100px;
+}
